@@ -11,7 +11,7 @@ namespace Catalog.API.Products.CreateProduct
     internal class CreateProductCommandHandler(IDocumentSession session) : ICommandHandler<CreateProductCommand, CreateProductResult>
     {
         public async Task<CreateProductResult> Handle(CreateProductCommand command, CancellationToken cancellationToken)
-        {
+            {
             //Create object entity from Command Object
             //Save to Database
             //return CreateProductResult object
