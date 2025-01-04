@@ -1,6 +1,4 @@
-﻿using Catalog.API.Models;
-using OpenTelemetry.Trace;
-namespace Catalog.API.Products.GetProducts
+﻿namespace Catalog.API.Products.GetProducts
 
 {
     public record GetProductRequest();
