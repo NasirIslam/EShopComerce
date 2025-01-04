@@ -14,3 +14,4 @@ namespace Catalog.API.Products.GetProducts
         }
     }
 }
+  
