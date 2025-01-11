@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="   " />
+    <ProjectReference Include="..\..\..\BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj" />
   </ItemGroup>
 
 </Project>
