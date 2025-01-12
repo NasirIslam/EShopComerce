@@ -12,7 +12,7 @@ namespace Catalog.API.Products.GetProductById
             _logger.LogInformation("GetProductByIdQueryHandler entering in the class {Session} ", _session);
             var product = await _session.LoadAsync<Product>(query.Id, cancellationToken);
             if (product is null)
-                throw new ProductNotFoundException();
+                throw new ProductNotFoundException(query.Id);
             return new GetProductByIdResult(product);
            
         }
